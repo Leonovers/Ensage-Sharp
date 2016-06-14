@@ -103,32 +103,54 @@ namespace ConsoleApplication3
                     }
                     Utils.Sleep(5000 + Game.Ping, "Bkblol");
                 }
+                if (me.Player.KillStreak.Equals(3) && Utils.SleepCheck("triple"))
+                {
+                    var metrand0 = "say OH BABY A TRIPLE! OH YEAH!";
+                    var metrand1 = "say NOOBS CONFIRMED";
+                    var metrand2 = "say EZ TRIPLE";
+                    var randomer = new Random();
+                    switch (randomer.Next(2))
+                    {
+                        case 0:
+                            Game.ExecuteCommand(metrand0);
+                            break;
+                        case 1:
+                            Game.ExecuteCommand(metrand1);
+                            break;
+                        case 2:
+                            Game.ExecuteCommand(metrand2);
+                            break;
+                    }
+                    Utils.Sleep(20000 + Game.Ping, "triple");
+                }
+                if (me.Player.KillStreak.Equals(3) && Utils.SleepCheck("rampage"))
+                {
+                    var metrand0 = "say OH MY GOD! VOLVO FIX IT PLEASE!";
+                    var metrand1 = "say EZ GAME DEAL WITH IT!";
+                    var metrand2 = "say EZ TRIPLE";
+                    var randomer = new Random();
+                    switch (randomer.Next(2))
+                    {
+                        case 0:
+                            Game.ExecuteCommand(metrand0);
+                            break;
+                        case 1:
+                            Game.ExecuteCommand(metrand1);
+                            break;
+                        case 2:
+                            Game.ExecuteCommand(metrand2);
+                            break;
+                    }
+                    Utils.Sleep(12000 + Game.Ping, "rampage");
+                }
                 if (me == null || me.ClassID != ClassID.CDOTA_Unit_Hero_Invoker)
                 {
                     return;
                 }
                 else
                 {
-                    if (me.FindSpell("invoker_chaos_meteor").IsInAbilityPhase && Utils.SleepCheck("metlol"))
-                    {
-                        var metrand0 = "say Meatballus fallendus!";
-                        var metrand1 = "say AnOOs Firedus!";
-                        var metrand2 = "say Bombarda Maxima!";
-                        var randomer = new Random();
-                        switch (randomer.Next(2))
-                        {
-                            case 0:
-                                Game.ExecuteCommand(metrand0);
-                                break;
-                            case 1:
-                                Game.ExecuteCommand(metrand1);
-                                break;
-                            case 2:
-                                Game.ExecuteCommand(metrand2);
-                                break;
-                        }
-                        Utils.Sleep(500 + Game.Ping, "metlol");
-                    }
+
+                }
             }
         }
     }
