@@ -81,7 +81,7 @@ namespace ConsoleApplication3
                             Game.ExecuteCommand(ReinRand2);
                             break;
                     }
-                    Utils.Sleep(5000 + Game.Ping, "Reinlol");
+                    Utils.Sleep(7000 + Game.Ping, "Reinlol");
                 }
                 if (me.IsMagicImmune() && me.IsVisibleToEnemies && Utils.SleepCheck("Bkblol"))
                 {
@@ -101,7 +101,7 @@ namespace ConsoleApplication3
                             Game.ExecuteCommand(bkbrand2);
                             break;
                     }
-                    Utils.Sleep(5000 + Game.Ping, "Bkblol");
+                    Utils.Sleep(15000 + Game.Ping, "Bkblol");
                 }
                 if (me.Player.KillStreak.Equals(3) && Utils.SleepCheck("triple"))
                 {
@@ -123,7 +123,7 @@ namespace ConsoleApplication3
                     }
                     Utils.Sleep(20000 + Game.Ping, "triple");
                 }
-                if (me.Player.KillStreak.Equals(3) && Utils.SleepCheck("rampage"))
+                if (me.Player.KillStreak.Equals(5) && Utils.SleepCheck("rampage"))
                 {
                     var metrand0 = "say OH MY GOD! VOLVO FIX IT PLEASE!";
                     var metrand1 = "say EZ GAME DEAL WITH IT!";
