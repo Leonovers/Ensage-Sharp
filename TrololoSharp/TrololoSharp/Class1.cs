@@ -19,6 +19,7 @@ namespace ConsoleApplication3
     using SharpDX.Direct3D9;
     using System.Windows.Input;
     using Ensage.Common.Menu;
+    using Ensage.Common.Objects;
 
     internal class Trolling
     {
@@ -80,7 +81,7 @@ namespace ConsoleApplication3
                             Game.ExecuteCommand(ReinRand2);
                             break;
                     }
-                    Utils.Sleep(3000 + Game.Ping, "Reinlol");
+                    Utils.Sleep(5000 + Game.Ping, "Reinlol");
                 }
                 if (me.IsMagicImmune() && me.IsVisibleToEnemies && Utils.SleepCheck("Bkblol"))
                 {
@@ -100,8 +101,34 @@ namespace ConsoleApplication3
                             Game.ExecuteCommand(bkbrand2);
                             break;
                     }
-                    Utils.Sleep(3000 + Game.Ping, "Bkblol");
+                    Utils.Sleep(5000 + Game.Ping, "Bkblol");
                 }
+                if (me == null || me.ClassID != ClassID.CDOTA_Unit_Hero_Invoker)
+                {
+                    return;
+                }
+                else
+                {
+                    if (me.FindSpell("invoker_chaos_meteor").IsInAbilityPhase && Utils.SleepCheck("metlol"))
+                    {
+                        var metrand0 = "say Meatballus fallendus!";
+                        var metrand1 = "say AnOOs Firedus!";
+                        var metrand2 = "say Bombarda Maxima!";
+                        var randomer = new Random();
+                        switch (randomer.Next(2))
+                        {
+                            case 0:
+                                Game.ExecuteCommand(metrand0);
+                                break;
+                            case 1:
+                                Game.ExecuteCommand(metrand1);
+                                break;
+                            case 2:
+                                Game.ExecuteCommand(metrand2);
+                                break;
+                        }
+                        Utils.Sleep(500 + Game.Ping, "metlol");
+                    }
             }
         }
     }
