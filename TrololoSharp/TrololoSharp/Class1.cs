@@ -36,6 +36,8 @@ namespace ConsoleApplication3
             optionsmenu.AddItem(new MenuItem("Russian", "ENG/RU").SetValue(true));
             Menu.AddSubMenu(optionsmenu);
             Menu.AddToMainMenu();
+            Events.OnLoad += Events_OnLoad;
+            Events.OnClose += Events_OnClose;
         }
         private static void Events_OnLoad(object sender, EventArgs e)
         {
