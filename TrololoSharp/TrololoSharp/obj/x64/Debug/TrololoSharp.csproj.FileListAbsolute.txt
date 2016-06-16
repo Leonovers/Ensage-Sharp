@@ -1,0 +1,14 @@
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe.config
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.pdb
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Ensage.Common.dll
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Ensage.dll
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Ensage.Menu.dll
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\SharpDX.Direct3D9.dll
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\SharpDX.dll
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\EnsageSharp.Sandbox.dll
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Ensage.Common.pdb
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Ensage.Menu.pdb
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\obj\x64\Debug\TrololoSharp.csprojResolveAssemblyReference.cache
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\obj\x64\Debug\ConsoleApplication3.exe
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\obj\x64\Debug\ConsoleApplication3.pdb

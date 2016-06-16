@@ -1,0 +1,11 @@
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\Ensage\Color Chat2\bin\Debug\Color Chat and Emoticon.exe.config
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\Ensage\Color Chat2\bin\Debug\Color Chat and Emoticon.exe
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\Ensage\Color Chat2\bin\Debug\Color Chat and Emoticon.pdb
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\Ensage\Color Chat2\bin\Debug\Ensage.dll
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\Ensage\Color Chat2\bin\Debug\SharpDX.Direct3D9.dll
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\Ensage\Color Chat2\bin\Debug\SharpDX.dll
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\Ensage\Color Chat2\bin\Debug\EnsageSharp.Sandbox.dll
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\Ensage\Color Chat2\bin\Debug\Ensage.Common.pdb
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\Ensage\Color Chat2\obj\x64\Debug\Color Chat and Emoticon.exe
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\Ensage\Color Chat2\obj\x64\Debug\Color Chat and Emoticon.pdb
+C:\Users\Администратор\Documents\Visual Studio 2015\Projects\Ensage\Color Chat2\obj\x64\Debug\Color Chat.csprojResolveAssemblyReference.cache
